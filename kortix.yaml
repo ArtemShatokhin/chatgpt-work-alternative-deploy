@@ -1,0 +1,15 @@
+# kortix.yaml - the Kortix layer of this project (manifest schema v2).
+# Declares connectors, triggers, and secret names and grants.
+# Secret values never appear in the repo.
+# Docs: https://kortix.com/docs
+
+triggers:
+  - slug: weekly-digest
+    type: cron
+    cron: '0 0 9 * * 1-5'
+    prompt: Summarize this week's commits and open a change request with the digest.
+
+agents:
+  ops-assistant:
+    file: agents/ops-assistant.md
+    connectors: all
