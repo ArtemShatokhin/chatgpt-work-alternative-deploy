@@ -110,6 +110,8 @@ The site behind this repository answers the same query on the web: [chatgptworka
 - [Pricing](https://chatgptworkalternative.com/pricing)
 - [FAQ](https://chatgptworkalternative.com/faq)
 
+New pages cover the questions teams ask before they move: [ChatGPT Work for teams](https://chatgptworkalternative.com/chatgpt-work-for-teams) on a shared setup the team owns and reviews, [ChatGPT Work data and privacy](https://chatgptworkalternative.com/chatgpt-work-data-and-privacy) on where the work and the configuration sit, [ChatGPT Work limitations](https://chatgptworkalternative.com/chatgpt-work-limitations) on the real limits of the hosted product, and a head-to-head [ChatGPT Work vs Gemini](https://chatgptworkalternative.com/chatgpt-work-vs-gemini). Two more comparisons sit alongside them: [ChatGPT Work vs Claude Cowork](https://chatgptworkalternative.com/chatgpt-work-vs-claude-cowork) and [ChatGPT Work vs Microsoft Copilot](https://chatgptworkalternative.com/chatgpt-work-vs-copilot), with a short answer to [is ChatGPT Work open source](https://chatgptworkalternative.com/is-chatgpt-work-open-source).
+
 The Kortix source code is public. Read it, fork it, audit it at [Kortix on GitHub](https://github.com/kortix-ai/suna). Read the product documentation at [Read the docs](https://kortix.com/docs).
 
 Kortix is free to self-host. [Try Kortix](https://kortix.com).
