@@ -25,25 +25,25 @@ ChatGPT Work is a closed product, and its configuration lives inside ChatGPT. Op
 
 ## Models
 
-Kortix runs any model provider with your own keys, or the ChatGPT plan you already pay for, or a sign-in with your OpenCode Console account for OpenCode Zen and Go. The provider is your choice, and the key stays yours.
+Any model provider with your own keys. Or the ChatGPT plan you already pay for. Or sign in with your OpenCode Console account for OpenCode Zen and Go. The provider is your choice, and the key stays yours.
 
-ChatGPT Work runs on OpenAI's models only. OpenAI names the model in both places but not the same way: the launch post says GPT-5.6 and the current product page says GPT-6. Either way, the model is OpenAI's, and you do not choose the provider.
+ChatGPT Work runs on OpenAI's models only. GPT-6 Astra has run in ChatGPT Work since September 9, 2026 ([OpenAI Help Center](https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex)). The model is OpenAI's, and you do not choose the provider.
 
 ## Where it runs
 
-Kortix runs on Kortix Cloud, in your VPC, or on your own on-prem network, and self-host is free. You can put the whole instance on a box you control.
+Run it on Kortix Cloud, in your VPC, or on your own on-prem network. Self-host is free. You can put the whole instance on a box you control.
 
 ChatGPT Work runs on OpenAI's cloud on the web and in the mobile app. In the desktop app it also uses your local files and apps, and the [product page](https://openai.com/chatgpt-work) lists no self-hosted option. Your work runs on OpenAI's infrastructure.
 
 ## Reach into your tools
 
-Kortix connects an agent to 3,000+ apps in a click, plus MCP, OpenAPI, Postman, GraphQL, and raw HTTP. Connector credentials are brokered server-side and never enter the machine. You set each tool to Allow, Ask, or Block, down to the arguments of each call.
+Connector credentials are brokered server-side and never enter the machine. You set each tool to Allow, Ask, or Block, down to the arguments of each call.
 
-ChatGPT Work connects through plugins, with more than 1,400 available on the [product page](https://openai.com/chatgpt-work). OpenAI says plugins connect ChatGPT to Slack and Microsoft Teams, Google Drive and SharePoint, email, calendars, CRMs, and project trackers. Reach is real on both sides, and the two products differ on where the credential lives and who can change the rule.
+ChatGPT Work connects through plugins, with more than 1,400 available on the [product page](https://openai.com/chatgpt-work). OpenAI says plugins connect ChatGPT to Slack and Microsoft Teams, Google Drive and SharePoint, email, calendars, CRMs, and project trackers. The two products differ on where the credential lives and who can change the rule.
 
 ## Review and governance
 
-Kortix runs each session in one isolated sandbox on its own branch. Session work reaches `main` through a change request, and merge is default-deny for agents. For people and agents, Kortix has per-resource permissions, roles, groups, and an audit trail, plus SAML 2.0 single sign-on and SCIM 2.0. Approval gates are yours to set and are off until you set them.
+Kortix runs each session in one isolated sandbox on its own branch. Session work reaches `main` through a change request. Merge is default-deny for agents. For people and agents, Kortix has per-resource permissions, roles, groups, and an audit trail. Approval gates are yours to set and are off until you set them.
 
 ChatGPT Work gives a workspace admin controls for access, connected tools, and the actions the agent may take, and OpenAI adds an auto-review step that checks important actions before they run. That model lives in OpenAI's product, and you configure it there.
 
