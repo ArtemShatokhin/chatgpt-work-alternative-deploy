@@ -24,7 +24,7 @@ Start by exporting the work your team repeats, such as a weekly report or a tria
 
 ## What does Kortix cost?
 
-Self-host is free. On the managed cloud, Free is $0 with 1 project, and the team plan is $40 per seat per month. ChatGPT Work follows the usage structure of OpenAI's Codex, so a heavier task uses more of a plan. Prices change, so check the campaign site's [pricing](https://chatgptworkalternative.com/pricing) page for the current numbers.
+Self-host is free. On the managed cloud, Free is $0 with 200 credits per month and 1 project. Paid plans start at $50 a month for 5,000 credits, and members are free, sharing one credit pool. ChatGPT Work follows the usage structure of OpenAI's Codex, so a heavier task uses more of a plan. Prices change, so check the campaign site's [pricing](https://chatgptworkalternative.com/pricing) page for the current numbers.
 
 ## Can I run Kortix without a domain?
 
