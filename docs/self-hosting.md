@@ -2,7 +2,7 @@
 
 Kortix is open source and self-host is free, so a company can run the whole thing on hardware it controls. This guide uses the real commands from the Kortix docs, checked October 2026, at [Read the docs](https://kortix.com/docs).
 
-Kortix runs as one Docker Compose stack: the frontend, the API, the LLM gateway, and the Supabase distribution. The stack has no Redis and no separate worker. Agent sessions run on a separate sandbox provider, not on this stack. The default provider is Daytona, and Platinum and E2B are also supported.
+Kortix runs as one Docker Compose stack: the frontend, the API, the LLM gateway, and the Supabase distribution. The stack has no Redis and no separate worker. Agent sessions run on a separate sandbox provider, not on this stack. Platinum is the default provider, and Daytona remains available as a legacy fallback.
 
 ## Requirements
 
